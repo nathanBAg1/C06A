@@ -11,7 +11,7 @@ public class Main {
         if(NPA >= 60) {
             System.out.println("Passou!");
         } else {
-            System.out.println("Nao passou!");
+            System.out.println("Ficou de NP3!");
             System.out.print("Informe o valor de sua NP3: ");
             int NP3 = entrada.nextInt();
             int NFA = (NPA + NP3) / 2;
@@ -25,3 +25,4 @@ public class Main {
         entrada.close();
     }
 }
+
